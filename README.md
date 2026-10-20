@@ -4,7 +4,9 @@ StudyShelf is a beginner-friendly MERN stack proof of concept. Students can shar
 
 ## Features
 
+- Dedicated home, Explore, Share, and Study guide pages
 - Add, view, edit, and delete study resources
+- Preview recently shared resources from the home page
 - Search resources by title, subject, description, or contributor
 - Filter resources by type
 - Validate required fields and links
@@ -72,7 +74,7 @@ To create a production build of the React website, run `npm run build`. To run o
 
 ```text
 client/                 React interface and Vite configuration
-  src/App.jsx           Page, resource list, search, filters, and form
+  src/App.jsx           Hash-routed pages, resource list, search, filters, and form
   src/styles.css        Application styles
 server/                 Express API and MongoDB models
   models/Resource.js    Mongoose resource schema
